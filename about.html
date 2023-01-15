@@ -9,40 +9,88 @@
 <body>
   <h1>テーブル学習</h1>
   <table>
-    <tr>
-      <th>動物</th>
-      <th>平均値[kg (lb)]</th>
-      <th>最大値[kg (lb)]</th>
-      <th>飛行能力</th>
-    </tr>
-    
-    <tr>
-      <td>ダチョウ</td>
-      <td>104 (230)</td>
-      <td>156.8 (346)</td>
-      <td>飛ばない</td>
-    </tr>
+    <thead>
+      <tr>
+        <th>動物</th>
+        <th>平均値[kg (lb)]</th>
+        <th>最大値[kg (lb)]</th>
+        <th>飛行能力</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ダチョウ</td>
+        <td>104 (230)</td>
+        <td>156.8 (346)</td>
+        <td>飛ばない</td>
+      </tr>
 
-    <tr>
-      <td>ダチョウ２</td>
-      <td>90 (200)</td>
-      <td>130 (287)</td>
-      <td>飛ばない</td>
-    </tr>
+      <tr>
+        <td>ダチョウ２</td>
+        <td>90 (200)</td>
+        <td>130 (287)</td>
+        <td>飛ばない</td>
+      </tr>
 
-    <tr>
-      <td>ヒマドリ</td>
-      <td>45 (99)</td>
-      <td>85 (190)</td>
-      <td>飛ばない</td>
-    </tr>
-    
-    <tr>
-      <td>七面鳥</td>
-      <td>13.5 (29)</td>
-      <td>39 (86)</td>
-      <td>飛ぶ</td>
-    </tr>
+      <tr>
+        <td>ヒマドリ</td>
+        <td>45 (99)</td>
+        <td>85 (190)</td>
+        <td>飛ばない</td>
+      </tr>
+
+      <tr>
+        <td>七面鳥</td>
+        <td>13.5 (29)</td>
+        <td>39 (86)</td>
+        <td>飛ぶ</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>2</h2>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">動物</th>
+        <th colspan="2">重さ</th>
+        <th rowspan="2">飛行能力</th>
+      </tr>
+      <tr>
+        <th>kg</th>
+        <th>lb</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ダチョウ</td>
+        <td>104</td>
+        <td>230</td>
+        <td>飛ばない</td>
+      </tr>
+
+      <tr>
+        <td>ダチョウ２</td>
+        <td>90</td>
+        <td>200</td>
+        <td>飛ばない</td>
+      </tr>
+
+      <tr>
+        <td>ヒマドリ</td>
+        <td>45</td>
+        <td>99</td>
+        <td>飛ばない</td>
+      </tr>
+
+      <tr>
+        <td>七面鳥</td>
+        <td>13.5</td>
+        <td>29.8</td>
+        <td>飛ぶ</td>
+      </tr>
+    </tbody>
+
   </table>
 </body>
 </html>
