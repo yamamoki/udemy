@@ -26,7 +26,7 @@
     <!--↑↓は使い分け-->
     <p>
       <label>好きな数値:
-        <input type="number" placeholder="数値" name="num">
+        <input type="number" placeholder="数値" name="num" min="1" max="500" step="10">
       </label>
     </p>
     <button type="submit">送信!!</button>
@@ -74,6 +74,15 @@
         <option value="salad">サラダ</option>
         <option value="steak" selected>ステーキ</option>
       </select>
+    </p>
+    <p>
+      <label for="">チーズの量:</label>
+      <input type="range" id="cheese" min="1" max="10" name="cheese_level" value="9">
+    </p>
+    <p>
+      <label for="commnts">その他コメント</label>
+      <br>
+      <textarea id="commnts" rows="10" cols="40" placeholder="コメントを入力"></textarea>
     </p>
     <button type="submit">送信</button>
   </form>
