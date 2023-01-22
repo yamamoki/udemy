@@ -1,14 +1,14 @@
 h2 {
-  color: teal;
-  background-color: plum;
+  color: lightsteelblue;
+  background-color: rgb(255,0,0);
 }
 
 button {
   color: magenta;
-  background-color: cyan;
+  background-color: rgb(0,255,0);
 }
 
 p {
   color: olive;
-  background: orange;
+  background: rgb(0,0,255);
 }
