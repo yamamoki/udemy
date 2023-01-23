@@ -1,5 +1,5 @@
 h2 {
-  color: lightsteelblue;
+  color: #000000;
   background-color: rgb(255,0,0);
 }
 
@@ -9,6 +9,6 @@ button {
 }
 
 p {
-  color: olive;
+  color: #fff;
   background: rgb(0,0,255);
 }
