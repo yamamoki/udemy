@@ -3,6 +3,9 @@ h1 {
   font-weight: 400;
   text-decoration: #f78120 underline wavy;
   letter-spacing: 10px;
+  font-size: 80px;
+  /*font-family: Futura, sans-serif;複数のfont入力できる*/
+  font-family: Fantasy;
 }
 
 h2 {
