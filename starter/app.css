@@ -1,12 +1,31 @@
-* {
-  color: pink;
-  background-color: cyan;
+/** {*/
+/*  color: pink;*/
+/*  background-color: cyan;*/
+/*}*/
+
+body {
+  background-color: #a5dff9;
 }
 
 button {
   font-size: 30px;
+  background-color: #60c5ba;
 }
 
 h1, h2 {
-  color: darkslateblue;
+  color: #ef5285;
+}
+
+#signup {
+  background-color: #feee7d;
+}
+
+span {
+  color: #7286D3;
+}
+
+.tag {
+  background-color: #FFF2F2;
+  color: #8EA7E9;
+  font-size: 16px;
 }
