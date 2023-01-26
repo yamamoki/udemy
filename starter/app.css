@@ -29,3 +29,36 @@ span {
   color: #8EA7E9;
   font-size: 16px;
 }
+
+.post a {
+  color: #7286D3;
+}
+
+/*子孫*/
+footer a {
+  color: #ef5285;
+}
+
+/*隣接*/
+h2 + button {
+  font-size: 20px;
+}
+
+/*直下*/
+footer > a {
+  color: #7286D3;
+}
+
+
+/*属性セレクター*/
+input[type="password"] {
+  color: #feee7d;
+}
+
+section[class="post"] {
+  background-color: #fff;
+}
+
+a[href*="google"] {
+  color: green;
+}
