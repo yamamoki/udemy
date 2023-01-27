@@ -32,6 +32,8 @@ span {
 
 .post a {
   color: #7286D3;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 /*子孫*/
@@ -55,10 +57,28 @@ input[type="password"] {
   color: #feee7d;
 }
 
-section[class="post"] {
-  background-color: #fff;
-}
+/*section[class="post"] {*/
+/*  background-color: #fff;*/
+/*}*/
 
 a[href*="google"] {
   color: green;
+}
+
+/*擬似クラス*/
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: aqua;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #FFF;
 }
