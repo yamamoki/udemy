@@ -7,3 +7,26 @@ div {
 h1 {
   background-color: #9575CD;
 }
+
+#one {
+  background-color: #FFCDD2;
+  border-width: 5px;
+  border-color: #E53935;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+#two {
+  background-color: #F8BBD0;
+  border-color: #D81B60;
+  border-width: 3px;
+  border-style: dashed;
+  border-left-width: 5px;
+}
+
+#three {
+  background-color: #E1BEE7;
+  border:4px solid #E040FB;
+  border-left-style: dotted;
+  border-radius: 10px;
+}
