@@ -1,11 +1,25 @@
 h1 {
   background-color: palegoldenrod;
   border: 1px solid black;
-  display: inline;
+  width: 500px;
+  padding: 50px;
+  margin: 50px;
 }
 
 span {
   background-color: paleturquoise;
   border: 1px solid black;
-  display: block;
+  width: 500px;
+  padding: 50px;
+  margin: 50px;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: olivedrab;
+  border: 5px solid black;
+  display: inline-block;
+  padding: 50px;
+  margin: 50px;
 }
