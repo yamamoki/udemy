@@ -23,3 +23,14 @@ div {
   padding: 50px;
   margin: 50px;
 }
+
+
+h2 {
+  font-size: 2em;
+}
+
+article {
+  font-size: 30px;
+}
+
+/*1em=30px*/
