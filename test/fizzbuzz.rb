@@ -1,3 +1,15 @@
+# (1..30).each do |i|
+#   if i%15==0
+#       puts "FizzBuzz"
+#   elsif i%3==0
+#       puts "Fizz"
+#   elsif i%5==0 
+#       puts "Buzz"
+#   else
+#       puts i
+#   end
+# end
+
 # fizz_buzzメソッドを定義
 def fizz_buzz(n)
   # １５で割り切れる場合
@@ -13,6 +25,7 @@ def fizz_buzz(n)
     n.to_s
   end
 end
+
 
 # 1から30をfizz_buzzメソッドに渡し、putsで表示
 range = 1..30
