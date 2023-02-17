@@ -17,7 +17,8 @@ span {
 div {
   height: 200px;
   width: 200px;
-  background-color: olivedrab;
+  background-color: #8feb64ff;
+  /*不透明　ff*/
   border: 5px solid black;
   display: inline-block;
   padding: 100px;
