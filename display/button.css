@@ -7,6 +7,18 @@ body {
   background-color: #151b29;
 }
 
+section {
+  width: 80%;
+  height: 800px;
+  /*background-image: url(https://images.unsplash.com/photo-1559087867-ce4c91325525?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);*/
+  /*background-size: cover;*/
+  /*background-position: center;*/
+  background: center/cover no-repeat url(https://images.unsplash.com/photo-1559087867-ce4c91325525?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  margin: 0 auto;
+  color: white;
+  font-size: 100px;
+}
+
 button {
   background: none;
   color: #ffa260;
